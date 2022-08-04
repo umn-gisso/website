@@ -38,8 +38,8 @@ root.render(
           path="/login-page"
           render={(props) => <LoginPage {...props} />}
         /> */}
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
+        <Redirect to="https://mohsenumn.github.io/gisso/#/index" />
+        <Redirect from="/" to="https://mohsenumn.github.io/gisso/#/index" />
       </Switch>
     </Switch>
   </BrowserRouter>
