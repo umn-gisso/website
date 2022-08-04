@@ -12,7 +12,7 @@ gulp.task("licenses", async function () {
 * Now UI Kit React - v1.5.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-react
+* Product Page: https://www.creative-tim.com/product/gisso-react
 * Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
@@ -35,7 +35,7 @@ gulp.task("licenses", async function () {
   * Now UI Kit React - v1.5.1
   =========================================================
 
-  * Product Page: https://www.creative-tim.com/product/now-ui-kit-react
+  * Product Page: https://www.creative-tim.com/product/gisso-react
   * Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
   * Coded by Creative Tim
@@ -58,7 +58,7 @@ gulp.task("licenses", async function () {
 * Now UI Kit React - v1.5.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-react
+* Product Page: https://www.creative-tim.com/product/gisso-react
 * Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
@@ -77,18 +77,6 @@ gulp.task("licenses", async function () {
     .pipe(
       gap.prependText(`/*!
 
-=========================================================
-* Now UI Kit React - v1.5.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-react
-* Copyright 2022 Creative Tim (http://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */`)
     )
