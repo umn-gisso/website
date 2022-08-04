@@ -1,6 +1,6 @@
 {
   "homepage" :"http://mohsenumn.github.io/gisso",
-  "name": "GISSO Website",
+  "name": "gisso",
   "version": "1.5.1",
   "private": true,
   "dependencies": {
