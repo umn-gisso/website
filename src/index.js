@@ -1,8 +1,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 // styles for this kit
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.5.0";
@@ -18,29 +18,33 @@ import ProfilePage from "views/examples/ProfilePage.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
-    <Switch>
+  <HelmetProvider>
+    <HashRouter>
+    <meta name="viewport" content="width=device-width" />
+
       <Switch>
-        <Route path="/index" render={(props) => <Index {...props} />} />
-        {/* <Route
-          path="/nucleo-icons"
-          render={(props) => <NucleoIcons {...props} />}
-        />
-        <Route
-          path="/landing-page"
-          render={(props) => <LandingPage {...props} />}
-        />
-        <Route
-          path="/profile-page"
-          render={(props) => <ProfilePage {...props} />}
-        />
-        <Route
-          path="/login-page"
-          render={(props) => <LoginPage {...props} />}
-        /> */}
-        <Redirect to="/gisso/index" />
-        <Redirect from="/" to="/gisso/index" />
+        <Switch>
+          <Route path="/index" render={(props) => <Index {...props} />} />
+          {/* <Route
+            path="/nucleo-icons"
+            render={(props) => <NucleoIcons {...props} />}
+          />
+          <Route
+            path="/landing-page"
+            render={(props) => <LandingPage {...props} />}
+          />
+          <Route
+            path="/profile-page"
+            render={(props) => <ProfilePage {...props} />}
+          />
+          <Route
+            path="/login-page"
+            render={(props) => <LoginPage {...props} />}
+          /> */}
+          <Redirect to="/index" />
+          <Redirect from="/" to="/index" />
+        </Switch>
       </Switch>
-    </Switch>
-  </BrowserRouter>
+    </HashRouter>
+  </HelmetProvider>
 );
