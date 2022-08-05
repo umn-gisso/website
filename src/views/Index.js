@@ -44,19 +44,19 @@ function Index() {
         <IndexHeader />
         <div className="main">
         <CompleteExamples />
+        <DividerBar />
+        <Carousel />
+        <FooterSection />
           {/* <Images /> */}
           {/* <BasicElements /> */}
           {/* <Navbars /> */}
           {/* <Tabs /> */}
           {/* <Pagination /> */}
-          <DividerBar />
           {/* <Typography /> */}
           {/* <Javascript /> */}
-          <Carousel />
           {/* <NucleoIcons /> */}
           {/* <SignUp /> */}
           {/* <Examples /> */}
-          <FooterSection />
         </div>
         <DarkFooter />
       </div>

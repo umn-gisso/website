@@ -425,12 +425,13 @@
 }
 
 .section-download {
-  padding-top: 130px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #800000;
 }
 
 .section-download .description {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .section-about {
