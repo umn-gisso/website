@@ -1,3 +1,3 @@
 GISSO Website
 
-http://mohsenumn.github.io/gisso
+https://umn-gisso.github.io/website
