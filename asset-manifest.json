@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.5f642bfb.css",
+    "main.js": "/website/static/js/main.064e2007.js",
+    "static/media/bg6.jpg": "/website/static/media/bg6.dc603b7416966b84ac68.jpg",
+    "static/media/bg1.jpg": "/website/static/media/bg1.71a28027225b8ae945bb.jpg",
+    "static/media/bg11.jpg": "/website/static/media/bg11.c6c21bd88aee67067eb6.jpg",
+    "static/media/gisso-team.jpg": "/website/static/media/gisso-team.a99c54d04653f2058830.jpg",
+    "static/media/bg3.jpg": "/website/static/media/bg3.850b808854f295b2c596.jpg",
+    "static/media/login.jpg": "/website/static/media/login.ab931d77bfe905914456.jpg",
+    "static/media/bg7.jpg": "/website/static/media/bg7.6249276d677cd6fd680e.jpg",
+    "static/media/bg5.jpg": "/website/static/media/bg5.d60a95eb31d6400f802f.jpg",
+    "static/media/header.jpg": "/website/static/media/header.6c72abfc674702484da6.jpg",
+    "static/media/bg8.jpg": "/website/static/media/bg8.2c89438b189a2a391f19.jpg",
+    "static/media/landing.jpg": "/website/static/media/landing.6fa0380a8b02ebaadb6a.jpg",
+    "static/media/profile.jpg": "/website/static/media/profile.5f3b8e69153598f8dd2a.jpg",
+    "static/media/eva.jpg": "/website/static/media/eva.258d5c64c8708a5ce23b.jpg",
+    "static/media/ryan.jpg": "/website/static/media/ryan.ca24473bc1e6d20bf0d1.jpg",
+    "static/media/julie.jpg": "/website/static/media/julie.00733edf41a7831227f2.jpg",
+    "static/media/avatar.jpg": "/website/static/media/avatar.21d108f80102dc685d9b.jpg",
+    "static/media/gisso-logo.png": "/website/static/media/gisso-logo.2a0c78c464df5ea57df1.png",
+    "static/media/nucleo-outline.eot": "/website/static/media/nucleo-outline.56814a6b7240045e1494.eot",
+    "static/media/nucleo-outline.ttf": "/website/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+    "static/media/nucleo-outline.woff": "/website/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
+    "static/media/nucleo-outline.woff2": "/website/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
+    "index.html": "/website/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5f642bfb.css",
+    "static/js/main.064e2007.js"
+  ]
+}
