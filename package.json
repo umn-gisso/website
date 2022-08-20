@@ -1,6 +1,6 @@
 {
   "homepage": "https://umn-gisso.github.io/website",
-  "name": "gisso",
+  "name": "website",
   "version": "1.5.1",
   "private": true,
   "dependencies": {

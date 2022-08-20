@@ -194,6 +194,19 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
+                  href="https://github.com/umn-gisso"
+                  target="_blank"
+                  id="github-tooltip"
+                >
+                  <i className="fab fa-github fa-2x"></i>
+                  <p className="d-lg-none d-xl-none">GitHub</p>
+                </NavLink>
+                <UncontrolledTooltip target="#github-tooltip">
+                  Our GitHub
+                </UncontrolledTooltip>
+              </NavItem>
+              <NavItem>
+                <NavLink
                   href="mailto:gisso@umn.edu"
                   target="_blank"
                   id="email-tooltip"

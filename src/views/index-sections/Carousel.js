@@ -19,12 +19,12 @@ const items = [
     caption: "The GISSO Team 2022-2023"
   },
   {
-    src: require("assets/img/gisso-team.jpg"),
+    src: require("assets/img/umn-temp0.jpg"),
     altText: "The GISSO Team 2021-2022",
     caption: "The GISSO Team 2021-2022"
   },
   {
-    src: require("assets/img/gisso-team.jpg"),
+    src: require("assets/img/umn-temp1.jpg"),
     altText: "The GISSO Team 2020-2021",
     caption: "The GISSO Team 2020-2021"
   }
